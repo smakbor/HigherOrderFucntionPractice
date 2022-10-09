@@ -61,3 +61,5 @@ const obj2 = Object.fromEntries(
   Object.entries(obj).map(([key, value]) => [key, value.age * 2])
 );
 console.log(obj2);
+
+const ForeachMethod = users.forEach((user) => console.log(user.firstName));
